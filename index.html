@@ -1,286 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8"> 
-	<title>Eddie Zhang Homepage</title>
-	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+---
+layout: page
+description: "一生想做浪漫极客"
+---
 
-	<!-- css style and font -->
-
-	<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-   <!--  <link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.min.css"/> -->
-	<link rel="stylesheet" type="text/css"  href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-	<script type="text/javascript" src="js/modernizr.custom.js"></script>
-
-</head>
-<body style="overflow:hidden">
-<div id="nav">
-  <nav class="navbar navbar-custom" style="background-color:black">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll">Eddie Zhang</a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll aboutme" href="#about">About Me</a> </li>
-          <li> <a class="page-scroll skills" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll portfolio" href="#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll experience" href="#resume">Experience</a> </li>
-          <li> <a class="page-scroll contact" href="#contact">Contact</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-
-<div id="myCarousel" class="carousel slide" style="position:static;height:100%" data-interval="false">
-
-<!-- navigation -->
-
-<!-- 轮播（Carousel）项目 -->
-<div class="carousel-inner" style='margin:0px;height:100%;overflow:auto' >
-		  <div class="item active" style="height:100%;">
-			<div id="about">
-			<div class="container">
-			<div class="section-title text-center center">
-			<h2>Hello, My Name is Eddie Zhang</h2>
-			<hr>
-			</div>
-			<div class="row">
-			<div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive">
-      </div>
-			<div class="col-md-10 col-md-offset-1">
-			<div class="about-text">
-      <ul class='fa-ul summarylist' style='margin:45px;font-size:18px;margin-left:60px;margin-right;0px' >
-        <li><i class="fa-li fa fa-send"></i>Full-stack web and software developer, with hands-on development experience in all phases of designing, implementing, testing, and deploying, and expertise in data structures and algorithms</li>
-        <li>    </li>
-        <li><i class="fa-li fa fa-send"></i>Experience with large-scale data analysis on Hadoop platform with data mining algorithms</li>
-        <li>     </li>
-        <li><i class="fa-li fa fa-send"></i>Skilled in quantitative research, mapping, spatial data analysis and visualization</li>
-      </ul>
-
-			<form method="get" action="Enze Zhang_Eddie Zhang_SE.pdf">
-                <p class="text-center"><a class="btn btn-primary" href="Enze Zhang_Eddie Zhang_SE.pdf" id="dl" download="Eddie_Resume" ><i class="fa fa-download"></i> Download Resume</a></p>
-            </form>
-
-			</div>
-			</div>
-			</div>
-			</div>
-			</div>
-</div>
-
-<!-- skills -->
-<div class="item" style="height:100%;">
-		<div id="skills" class="text-center">
-		<div class="container">
-		<div class="section-title center">
-		<h2>Skills</h2>
-		<hr>
-		</div>
-		<div class="row">
-		<div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
-		<h4>HTML5</h4>
-		</div>
-		<div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
-		<h4>Python</h4>
-		</div>
-		<div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-		<h4>jQuery</h4>
-		</div>
-		<div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-		<h4>Java</h4>
-		</div>
-		<div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
-		<h4>JavaScript</h4>
-		</div>
-		<div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">65</span> </span>
-		<h4>Bootstrap</h4>
-		</div>
-		</div>
-		</div>
-		</div>
-			<!-- <img src="/wp-content/uploads/2014/07/slide2.png" alt="Second slide"> -->
-</div>
-
-<!-- Portfolio -->
-<div class="item" style="height:100%;">
-	<div id="portfolio">
-    <div class="container">
-    <div class="section-title text-center center">
-      <h2>Portfolio</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Develoment</a></li>
-            <li><a href="#" data-filter=".gis">GIS Projects</a></li>
-            <li><a href="#" data-filter=".data">Data analysis</a></li>
-          </ol>
-        </li>
-      </ul>
-    <div class="clearfix"></div>
-    </div>
-    <div class="row" style="height:100%;">
-      <div class="portfolio-items">
-        <div class="col-md-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/ext_2.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-                <img src="img/portfolio/ext_2.jpg" class="img-responsive" alt="Project Title"> </a> 
-              </div>
-          </div>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 gis">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>GIS Development</small> </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small> </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Development</small> </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
 </div>
-</div>
+<hr>
+{% endfor %}
 
-<!-- Experience -->
-<div class="item" style="height:100%;">
-		<h3>Experience</h3>
-		<hr>
-		<div class="container text-center">
-		<h3>Coming soon!</h3>
-		<hr>
-	  </div>
-</div>
-
-<!-- contact -->
-<div class="item" style="height:100%;">
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Contact</h2>
-      <hr>
-    </div>
-
-    <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
-        <p>4285 Chestnut Ridge Rd, Apt D-3<br>
-          Buffalo, NY 14228</p>
-      </div>
-      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-        <p>enzezhan@buffalo.edu</p>
-      </div>
-      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-        <p> +1 7167309447</p>
-      </div>
-      <div class="clearfix"></div>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <div class="social">
-        <ul>
-          <li><a href="https://www.linkedin.com/in/enze-zhang-056921109?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-github"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-	<!-- 轮播（Carousel）导航 -->
-<!-- 	<a class="carousel-control left" href="#myCarousel" 
-	   data-slide="prev">&lsaquo;</a>
-	<a class="carousel-control right" href="#myCarousel" 
-	   data-slide="next">&rsaquo;</a> -->
-	<!-- 控制按钮 -->
-	
-</div>
-
-<!-- <div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2016 Designed by Enze Zhang at University at Buffalo</p>
-    </div>
-  </div>
-</div> -->
-
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript"> 
-
-$(".aboutme").click(function(event) {
-
-$('#myCarousel').carousel({
-    pause: true,
-    interval: false
-});
-      $("#myCarousel").carousel(0);
-      $("#myCarousel").carousel('pause');
-    });
-    
-    $(".skills").click(function(event) {
-      $("#myCarousel").carousel(1);
-      $("#myCarousel").carousel('pause');
-    });
-    
-    $(".portfolio").click(function(event) {
-      $("#myCarousel").carousel(2);
-      $("#myCarousel").carousel('pause');
-    });
-
-    $(".experience").click(function(event) {
-      $("#myCarousel").carousel(3);
-      $("#myCarousel").carousel('pause');
-    });
-
-    $(".contact").click(function(event) {
-      $("#myCarousel").carousel(4);
-      $("#myCarousel").carousel('pause');
-    });
-
-
-</script>
-</body>
-</html>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
